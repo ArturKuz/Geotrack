@@ -1,0 +1,203 @@
+@media only screen and (min-width: 1600px){
+    /*.page-wrapper {*/
+        /*width: 100%;*/
+    /*}*/
+    .page{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 840px)and (max-width: 1100px){
+    .page-header__logo-link {
+        flex-basis: 50%;
+        order: 1;
+    }
+    .page-header__logo-link:before{
+       left: 25%;
+    }
+    .page-header__logo-link:after{
+        left: 25%;
+    }
+    .page-header__menu{
+        flex-basis: 50%;
+        order: 3;
+    }
+    .page-header__search{
+        flex-basis: 50%;
+        order: 4;
+    }
+    .page-header__avatar{
+        flex-basis: 50%;
+        order: 2;
+    }
+    .page-content__object{
+        flex-basis: 48%;
+    }
+    .page-content__info {
+        flex-basis: 48%;
+    }
+    .page-content__message-caption{
+        padding-left: 10%;
+    }
+    .page-content__message-text{
+        padding-left: 10%;
+    }
+    .page-footer{
+        justify-content: space-around;
+    }
+    .page-footer__logo{
+        flex-basis: 30%;
+    }
+    .page-footer__menu, .page-footer__social{
+
+        flex-basis: 35%;
+    }
+}
+@media only screen and (min-width: 680px)and (max-width: 840px){
+    .page-header__logo-link {
+        flex-basis: 50%;
+        order: 1;
+    }
+    .page-header__logo-link:before{
+        left: 25%;
+    }
+    .page-header__logo-link:after{
+        left: 25%;
+    }
+    .page-header__menu{
+        flex-basis: 100%;
+        order: 3;
+    }
+    .page-header__search{
+        flex-basis: 100%;
+        order: 4;
+    }
+    .page-header__avatar{
+        flex-basis: 50%;
+        order: 2;
+    }
+    .page-content__object{
+        flex-basis: 100%;
+    }
+    .page-content__object-table{
+        width: 100%;
+    }
+    .page-content__object-table-name{
+        padding: 2% 5%;
+    }
+    .page-content__object-table-value{
+        padding: 2% 5%;
+    }
+    .page-content__info {
+        flex-basis: 100%;
+    }
+    .page-content__message-caption{
+        padding-left: 15%;
+    }
+    .page-content__message-text{
+        padding-left: 15%;
+    }
+    .page-footer__logo{
+        flex-basis: 30%;
+    }
+    .page-footer{
+        justify-content: space-around;
+    }
+    .page-footer__menu, .page-footer__social{
+        flex-basis: 35%;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .page-background__triangle_left, .page-background__triangle_top-big{
+        display: none;
+    }
+    .page-header{
+        position: relative;
+    }
+    .page-header__logo-link {
+        flex-basis: 33%;
+        order: 2;
+    }
+    .page-header__logo-link_decor {
+        background: none;
+    }
+    .page-header__menu {
+        display: none;
+    }
+    .page-header__menu-link{
+        display: block;
+        margin: 10%;
+    }
+    .page-header__logo-link:after{
+        content: none;
+    }
+
+    .page-header__logo-link:before{
+        content: "Geotrack ver 1.0";
+        left: -5%;
+        bottom: 30%;
+    }
+    .page-header__menu-drop_open {
+        width: 50%;
+        display: block;
+        position: absolute;
+        top: 55%;
+        left: 5%;
+        z-index: 1;
+
+        background: #F9FAFE;
+
+    }
+    .page-header__drop-down-menu{
+        display: block;
+        flex-basis: 33%;
+        order: 1;
+    }
+
+    .page-header__search {
+        flex-basis: 100%;
+        order: 4;
+    }
+
+    .page-header__avatar {
+        flex-basis: 33%;
+        order: 3;
+    }
+
+    .page-content__object {
+        flex-basis: 100%;
+        margin: 3%  0;
+    }
+
+    .page-content__info {
+        flex-basis: 100%;
+        margin: 3%  0;
+    }
+    .page-content__message-caption{
+        padding-left: 15%;
+    }
+    .page-content__message-text{
+        padding-left: 15%;
+    }
+
+    .page-footer {
+        justify-content: space-around;
+    }
+
+    .page-footer__logo {
+        margin: 1% 0;
+        flex-basis: 100%;
+        order: 1;
+    }
+
+    .page-footer__menu {
+        margin: 1% 0;
+        flex-basis: 50%;
+        order: 3;
+    }
+
+    .page-footer__social {
+        margin: 1% 0;
+        flex-basis: 50%;
+        order: 2;
+    }
+}

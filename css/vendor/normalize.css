@@ -1,0 +1,35 @@
+/* ---------------Basic---------*/
+html {
+	 font: 16px Arial, sans-serif;
+	 overflow-y: scroll;
+}
+
+body {
+	 background: #fff;
+	 color: #98A0B5;
+	 text-align: left;
+
+}
+input, select, button, textarea {
+	 font-family:Arial, sans-serif;
+}
+a, label, input[type="button"], input[type="submit"], button {
+	 cursor: pointer;
+}
+a, a:visited {
+
+	text-decoration: none;
+}
+a:hover {
+
+	 text-decoration: none;
+}
+a:focus, a:active {
+
+	 text-decoration: none;
+}
+* {
+	 box-sizing: border-box;
+}
+
+/* --------------- /Basic ---------*/

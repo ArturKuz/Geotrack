@@ -1,0 +1,20 @@
+.-position-center{
+    margin: 0 auto;
+}
+.-page-padding{
+    padding: 0 6% ;
+}
+.-is-block{
+    display: block;
+}
+
+.-is-flex{
+    display: flex;
+}
+.-text-uppercase{
+    text-transform: uppercase;
+}
+.-link-hover:hover{
+    transform: scale(1.2);
+    color: #647290;
+}
